@@ -4,7 +4,7 @@ namespace SearchService.Models;
 
 public class Item : Entity
 {
-    public int ReservePrice { get; set; } = 0;
+    public int ReservePrice { get; set; }
     public string Seller { get; set; }
     public string Winner { get; set; }
     public int SoldAmount { get; set; }
@@ -18,4 +18,6 @@ public class Item : Entity
     public int Year { get; set; }
     public string Color { get; set; }
     public int Mileage { get; set; }
-    public string ImageUrl { get; set; }}
+    public string ImageUrl { get; set; }
+    
+}
